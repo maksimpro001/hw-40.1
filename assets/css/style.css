@@ -1,0 +1,119 @@
+.header {
+  background-image: url(../img/header__bg.svg);
+  background-size: cover;
+  padding: 50px 0 90px 0;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.header__logo {
+}
+.header__menu {
+  max-width: 680px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__link-button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 8px;
+  color: #381ddb;
+  background-color: #fff;
+  padding: 18px 34px;
+}
+.header__content {
+  padding: 0 20px;
+  margin: auto;
+  max-width: 970px;
+}
+.header__title {
+  padding-top: 150px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.header__title--red {
+  color: #ffa3a3;
+}
+.header__undertitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  padding: 40px 0;
+}
+.header__wraper-button {
+  margin: auto;
+  max-width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.header__button--first {
+  padding: 18px 34px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #fc5252;
+  border-radius: 8px;
+}
+.header__button--second {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.header__time {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1450px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+.header__time-element {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 122px;
+  opacity: 0.5;
+  color: #fff;
+}
